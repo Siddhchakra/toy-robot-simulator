@@ -199,7 +199,7 @@ export default {
 
         //console.log(ToyRobot);
 
-        this.result = endXPos + ',' + endYPos + ',' + endDirection;
+        this.result = endXPos + ', ' + endYPos + ', ' + endDirection;
       };
 
       commandArray.forEach((commandLine) => {
